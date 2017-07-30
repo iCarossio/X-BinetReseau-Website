@@ -225,7 +225,7 @@
 
 /* My Grid */
 
-	#my_container{
+	.my_container{
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
@@ -236,6 +236,8 @@
 		margin-left: 1%;
 		margin-right: 1%;
 	}
+
+
 
 
 /* Grid */
@@ -2129,6 +2131,12 @@
 		margin: 0 0 1.5em 0;
 	}
 
+	header p.subtitle{
+		font-size: 1.25em;
+		margin-top: 0.5em;
+		line-height: 1.75em;
+	}
+
 	header h2 + p {
 		font-size: 1.25em;
 		margin-top: -1em;
@@ -2155,7 +2163,7 @@
 		text-align: center;
 	}
 
-		header.major:after {
+		header.major:before {
 			background: #e44c65;
 			content: '';
 			display: inline-block;
@@ -2477,6 +2485,11 @@
 		vertical-align: center;
 		max-height: 80%;
 		max-width: 80%;
+	}
+
+	.partners + h3{
+		margin-top: -1.2em;
+		margin-bottom: 0.5em;
 	}
 
 	.image {
