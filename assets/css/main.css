@@ -2500,7 +2500,7 @@
 		overflow: hidden;
 	}
 
-		.image-logo:before {
+		.no-background:before{
 			background-image: none !important;
 		}
 
