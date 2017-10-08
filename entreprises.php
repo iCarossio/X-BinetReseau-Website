@@ -25,7 +25,7 @@
 					<div class="container">
 						<header class="major">
 							<h2>Espace Pro</h2>
-							<p>Destiné aux entreprises et aux associations</p>
+							<p>Formulaire destiné aux entreprises et aux associations</p>
 						</header>
 
 						<!-- Content -->
@@ -33,39 +33,39 @@
 								<a href="#" class="image no-background fit"><img src="images/pic05.jpg" alt="" /></a>
 								<h3>Nous contacter</h3>
 
-								<form method="post" action="#">
+								<form name="contact-form" id="contactForm" action="assets/php/sendemail.php" method="POST">
 									<div class="row uniform 50%">
-										<div class="6u 12u$(xsmall)">
-											<input type="text" name="nom" id="nom" value="" placeholder="Nom" />
+										<div class="4u 12u$(xsmall)">
+											<input type="text" name="name" id="name" value="" placeholder="Nom" required/>
 										</div>
-										<div class="6u 12u$(xsmall)">
-											<input type="text" name="prenom" id="prenom" value="" placeholder="Prénom" />
+										<div class="4u 12u$(xsmall)">
+											<input type="text" name="organisation" id="organisation" value="" placeholder="Organisation" required/>
 										</div>
-										<div class="6u 12u$(xsmall)">
-											<input type="text" name="organisation" id="organisation" value="" placeholder="Nom de l'organisation" />
-										</div>
-										<div class="6u$ 12u$(xsmall)">
-											<input type="email" name="email" id="email" value="" placeholder="Email professionnel" />
+										<div class="4u$ 12u$(xsmall)">
+											<input type="email" name="email" id="email" value="" placeholder="Email" required/>
 										</div>
 
 										<div class="12u$">
-											<input type="email" name="email" id="email" value="" placeholder="Objet" />
+											<input type="text" name="subject" id="subject" value="" placeholder="Objet" required/>
 										</div>
 
 										<div class="12u$">
-											<textarea name="message" id="message" placeholder="Votre message" rows="6"></textarea>
+											<textarea name="message" id="message" placeholder="Votre message" rows="6" required></textarea>
 										</div>
 										<div class="12u$">
 											<ul class="actions">
-												<li><input type="submit" value="Envoyer" class="special" /></li>
+												<li><input type="submit" class="special" /></li>
 												<li><input type="reset" value="Reset" /></li>
 											</ul>
 										</div>
 
+										<!--
 										<div class="6u 12u$(medium)">
 											<input type="checkbox" id="copy" name="copy">
 											<label for="copy">M'envoyer une copie de ce message</label>
 										</div>
+										-->
+
 									</div>
 								</form>
 
