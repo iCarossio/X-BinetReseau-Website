@@ -18,16 +18,7 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<header id="header">
-					<h1 id="logo"><a href="index.html">Binet Réseau - École polytechnique</a></h1>
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Accueil</a></li>
-							<li><a href="etudiants.html">Espace X</a></li>
-							<li><a href="entreprises.html">Espace Pro</a></li>
-						</ul>
-					</nav>
-				</header>
+			<?php include('header.php'); ?>
 
 			<!-- Banner -->
 				<section id="banner">
@@ -76,7 +67,7 @@
 						</header>
 						<p>Retrouvez-vous toutes les adresses indispensables à la vie sur le campus.</p>
 						<ul class="actions">
-							<li><a href="etudiants.html" class="button">Espace Polytechniciens</a></li>
+							<li><a href="etudiants.php" class="button">Espace Polytechniciens</a></li>
 						</ul>
 					</div>
 					<a href="#three" class="goto-next scrolly">Next</a>
@@ -93,7 +84,7 @@
 						<p>Vous êtes une entreprises et vous souhaitez nouer un partenariat avec le Binet Réseau ?
 						Contactez-nous !</p>
 						<ul class="actions">
-							<li><a href="entreprises.html" class="button">Espace Entreprises</a></li>
+							<li><a href="entreprises.php" class="button">Espace Entreprises</a></li>
 						</ul>
 					</div>
 					<a href="#four" class="goto-next scrolly">Next</a>
@@ -181,22 +172,7 @@
 				</section>
 
 			<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<!--
-						<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-						-->
-						<li><a href="https://www.linkedin.com/company/11089000/" target="_blank" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://github.com/BinetReseau" target="_blank" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="mailto:br@eleves.polytechnique.fr" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; 2017 Binet Réseau.</li>
-						<li>Tous droits réservés.</li>
-					</ul>
-				</footer>
+			<?php include('footer.php'); ?>
 
 		</div>
 
