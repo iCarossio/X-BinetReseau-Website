@@ -301,6 +301,92 @@
 			$banner
 				._parallax();
 
+		// Contact form
+
+	    (function () {
+	        $('#resend').hide();
+
+	    }());
+
+	    $('#resend').click(function(){
+	    	$('input[name=submit]').val("Envoyer");
+	    	$('input[name=reset]').val('Reset');
+	        $('#resend').fadeOut();
+	        $('#successMail').fadeOut()
+	        $('#contactForm').delay(500).fadeIn();
+	        setTimeout(function(){
+	          $('#successMail').remove();
+	        }, 1000);
+	    });
+
+	    $('#contactForm').on('submit',function(e){
+
+	        e.preventDefault();
+
+	        var $action = $(this).prop('action');
+	        var $data = $(this).serialize();
+	        var $this = $(this);
+
+	        $this.prevAll('.alert').remove();
+
+	        $.ajax({
+	          type:    "POST",
+	          url:     $action,
+	          data:    $data,
+	          success: function(data) {
+	            if (data.response=='error'){
+	                $this.before( '<div class="alert alert-danger">'+data.message+'</div>' );
+	            }
+	            if (data.response=='success'){
+	                $this.before( '<div class="alert alert-success" id="successMail">'+data.message+'</div>' );
+	                $this.find('input, textarea').val('');
+	                $('#contactForm').fadeOut();
+	                $('#resend').delay(500).fadeIn('slow');
+	            }
+	          },
+	          error:   function(jqXHR, textStatus, errorThrown) {
+	                $this.before( '<div class="alert alert-warning">'+"Error, status = " + textStatus + "<br />" +"error thrown: " + errorThrown+'</div>' );
+	                $this.find('input, textarea').val('');
+	          }
+	        });
+
+	        /* $.post($action, $data, function(res) {
+	            console.log("Okaaay");
+	            console.log(res);
+	            if (res.response=='error'){
+	                $this.before( '<div class="alert alert-danger">'+res.message+'</div>' );
+	            }
+
+	            if (res.response=='success'){
+	                $this.before( '<div class="alert alert-success">'+res.message+'</div>' );
+	                $this.find('input, textarea').val('');
+	            }
+
+	        }, "json");*/
+
+	    });
+
+
+	    // Charts
+
+		$('.chart').easyPieChart({
+			easing: 'easeOutBounce',
+            delay: 3000,
+            barColor:'#e44c65',
+            trackColor:'rgba(255,255,255,0.2)',
+            scaleColor: false,
+            lineWidth: 8,
+            size: 140,
+            animate: 2000,
+			onStep: function(from, to, percent) {
+				$(this.el).find('.percent').text(Math.round(percent));
+			}
+		});
+		var chart = window.chart = $('.chart').data('easyPieChart');
+		$('.js_update').on('click', function() {
+			chart.update(Math.random()*200-100);
+		});
+
 	});
 
 })(jQuery);
