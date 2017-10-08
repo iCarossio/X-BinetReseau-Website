@@ -73,31 +73,30 @@
 
 								<!-- Sidebar -->
 									<section id="sidebar">
-										<h2>Quelques statistiques</h2>
 										<hr />
 										<section>
+											<h2>Quelques statistiques</h2>
 											<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-											<h4>Nombre sites hébergés sur Kevarzh</h4>
-											<span class="chart" data-percent="86">
-												<span class="percent"></span>
-											</span>
-											<footer>
-												<ul class="actions">
-													<li><span class="button js_update">Update chart</span></li>
-												</ul>
-											</footer>
+
+											<div class="stats">
+												<div class="chart" data-percent="86">
+													<!--<span class="percent"></span>-->
+													<span class="level">> 8000</span>
+											        <div class="chart-text">
+											          	<span>Inscrits sur Frankiz</span>
+											        </div>
+												</div>
+												<br />
+												<div class="chart" data-percent="72">
+													<!--<span class="percent"></span>-->
+													<span class="level">> 150</span>
+											        <div class="chart-text">
+											          	<span>Sites hébergés sur Kevarzh</span>
+											        </div>
+												</div>
+											</div>
 										</section>
 										<hr />
-										<section>
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-											<h4>Nombre sites hébergés sur Kevarzh</h4>
-											<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-											<footer>
-												<ul class="actions">
-													<li><span class="button js_update">Update chart</span></li>
-												</ul>
-											</footer>
-										</section>
 									</section>
 
 							</div>

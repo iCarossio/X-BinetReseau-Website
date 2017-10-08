@@ -4065,19 +4065,20 @@
 
 /* === Chart CSS  === */
 .chart {
-  position: relative;
-  display: inline-block;
-  width: 110px;
-  height: 110px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  text-align: center;
+    position: relative;
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    margin: 40px auto;
+    text-align: center;
 }
 .chart canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
+    position:absolute; 
+    top:0; 
+    left:0;
 }
+
+/*
 .percent {
   display: inline-block;
   line-height: 110px;
@@ -4087,5 +4088,33 @@
   content: '%';
   margin-left: 0.1em;
   font-size: .8em;
+}
+*/
+
+.level{
+    display: inline-block;
+    margin: auto;
+    line-height: 140px;
+    z-index: 2;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.chart-text span {
+    font-size: 18px;
+    font-weight: 300;
+    display: block;
+    margin-top: 20px;
+}
+
+.chart .chart-text h3{
+	font-size:22px;
+}
+
+.stats{
+	margin: auto;
+	width: 100%;
+	text-align: center;
 }
 
