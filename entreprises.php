@@ -50,11 +50,11 @@
 										</div>
 
 										<div class="12u$">
-											<textarea name="message" id="message" placeholder="Votre message" rows="6" required></textarea>
+											<textarea name="message" id="message" placeholder="Votre message…" rows="6" required></textarea>
 										</div>
 										<div class="12u$">
 											<ul class="actions">
-												<li><input type="submit" class="special" /></li>
+												<li><input type="submit" name="submit" class="special" /></li>
 												<li><input type="reset" value="Reset" /></li>
 											</ul>
 										</div>
