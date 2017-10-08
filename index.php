@@ -26,7 +26,7 @@
 						<header>
 							<h2>Binet Réseau</h2>
 							<p>École polytechnique<br />
-							Depuis 1998</p>
+							Depuis 1995</p>
 						</header>
 						<span class="no-background image"><img src="images/pic01.png" alt="Logo BR" /></span>
 					</div>

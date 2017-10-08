@@ -26,31 +26,55 @@
 						<header class="major">
 							<h2>Espace X</h2>
 							<p>Liens utiles à la vie sur le platâl</p>
+							<a href="#" class="image no-background fit"><img src="images/pic07.jpg" alt="Image n°7" /></a>
 						</header>
 						<div class="row 150%">
 							<div class="8u 12u$(medium)">
 
 								<!-- Content -->
 									<section id="content">
-										<a href="#" class="image no-background fit"><img src="images/pic07.jpg" alt="Image n°7" /></a>
-										<h2>Frankiz</h2>
-											<p>Pour se rendre sur Frankiz, c'est ici : <a href="https://www.frankiz.net" target="blank_">frankiz.net</a></p>
-										<h2>WikiBR</h2>
-										    <p>Pour accéder au WikiBR, c'est sur : <a href="https://wikibr.binets.fr" target="blank_">wikibr.binets.fr</a></p>
-										<h2>InfoBR</h2>
-										    <p>L'infoBR en ligne est ici : <a href="https://portail.polytechnique.edu/dsi/internet" target="blank_">http://infobr/</a></p>
+										<h2>Liens utiles</h2>
+										<div class="my_container">
+											<div class="my_element">
+												<span class="partners"><img src="images/internal/frankiz.png" alt="Frankiz"></span>
+												<h3><a href="https://www.frankiz.net" alt="IEEEFrance" target="_blank">Frankiz</a></h3>
+											</div>
+											<div class="my_element">
+												<span class="partners"><img src="images/internal/wikibr.png" alt="WikiBR"></span>
+												<h3><a href="https://wikibr.binets.fr" alt="WikiBR" target="_blank">WikiBR</a></h3>
+											</div>
+											<div class="my_element">
+												<span class="partners"><img src="images/internal/infobr.png" alt="InfoBR"></span>
+												<h3><a href="https://portail.polytechnique.edu/dsi/internet" alt="InfoBR" target="_blank">InfoBR</a></h3>
+											</div>
+											<div class="my_element">
+												<span class="partners"><img src="images/internal/gitlab.png" alt="GitLab"></span>
+												<h3><a href="https://gitlab.binets.fr" alt="GitLab" target="_blank">GitLab</a></h3>
+											</div>
+											<div class="my_element">
+												<span class="partners"><img src="images/internal/panix.png" alt="PaniX"></span>
+												<h3><a href="https://panix.binets.fr" alt="PaniX" target="_blank">PaniX</a></h3>
+											</div>
+											<div class="my_element">
+												<span class="partners"><img src="images/internal/titus.png" alt="Titus"></span>
+												<h3><a href="https://titus.binets.fr" alt="PaniX" target="_blank">Titus</a></h3>
+											</div>
+										</div>
+
+										<br/>
+
 										<h2>Contact</h2>
 										    <ul>
-											    <li>Pour tout problème technique : <a href="https://panix.binets.fr" target="blank_">PaniX</a>;</li>
 											    <li>pour ce qui concerne l'hébergement du site d'un binet, c'est : <a href="mailto:hebergement@eleves.polytechnique.fr" target="blank_">hebergement@eleves.polytechnique.fr</a> ;</li>
 											    <li>pour toute question concernant Frankiz, c'est : <a href="mailto:web@efrankiz.net">web@frankiz.net</a> ;</li>
 											    <li>pour contacter le bureau : <a href="mailto:bureau@eleves.polytechnique.fr">bureau@eleves.polytechnique.fr</a> ;</li>
 											    <li>enfin, pour écrire au BR tout entier :  <a href="mailto:br@eleves.polytechnique.fr">br@eleves.polytechnique.fr</a>.</li>
 										    </ul>
 
-										<h2>Support</h2>
-										    <h3>IRC</h3>
-										    <p>Pour obtenir sur support en live, tu peux nous trouver sur <a href="https://wikix.polytechnique.org/IRC" target="blank_">IRC</a> :</p>
+										<br/>
+
+										<h2>IRC</h2>
+										    <p>Pour obtenir sur support en live, tu peux aussi nous trouver sur <a href="https://wikix.polytechnique.org/IRC" target="blank_">IRC</a> :</p>
 										    <ul>
 										        <li>serveur : <code>irc</code> ou <code>ircserver</code> :
 										        	<ul>
@@ -62,9 +86,6 @@
 										        <li>port 6767 : connexion SSL</li>
 										        <li>channel : <code>#br-support</code></li>
 										    </ul>
-
-										    <h3>Titus</h3>
-										    <p>Tu peux également nous contacter en utilisant le chat promo : <a href="https://titus.binets.fr/" target="blank_">Titus</a></p>
 									</section>
 
 							</div>
@@ -72,7 +93,6 @@
 
 								<!-- Sidebar -->
 									<section id="sidebar">
-										<hr />
 										<section>
 											<h2>Quelques statistiques</h2>
 											<a href="#" class="image fit"><img src="images/pic09.jpg" alt="" /></a>
