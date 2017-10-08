@@ -68,9 +68,9 @@
     $contents =  strtr($templateContents, $templateTags);
 
     if ( mail( $to, $subject, $contents, $headers ) ) {
-        $result = array( 'response' => 'success', 'message'=>'<strong>Thank You!</strong>&nbsp; Your email has been delivered.' );
+        $result = array( 'response' => 'success', 'message'=>'<strong>Merci !</strong>&nbsp; Votre message a bien été envoyé. Nous vous répondrons très prochainement.' );
     } else {
-        $result = array( 'response' => 'error', 'message'=>'<strong>Error!</strong>&nbsp; Cann\'t send mail.'  );
+        $result = array( 'response' => 'error', 'message'=>'<strong>Erreur !</strong>&nbsp; Échec de l\'envoi du message.'  );
     }
 
     echo json_encode( $result );

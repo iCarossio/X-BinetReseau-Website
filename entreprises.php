@@ -54,8 +54,8 @@
 										</div>
 										<div class="12u$">
 											<ul class="actions">
-												<li><input type="submit" name="submit" class="special" /></li>
-												<li><input type="reset" value="Reset" /></li>
+												<li><input type="submit" name="submit" class="special" value="Envoyer"/></li>
+												<li><input type="reset" name="reset" value="Reset" /></li>
 											</ul>
 										</div>
 
@@ -68,6 +68,18 @@
 
 									</div>
 								</form>
+
+								<div class="row uniform 50%" id="resend">
+									<div class="12u$">
+										<ul class="actions">
+											<p>
+												<li><input type="button" value="Écire un nouveau message" /></li>
+											</p>
+										</ul>
+									</div>
+								</div>
+
+
 
 							</section>
 

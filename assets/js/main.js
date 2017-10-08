@@ -305,9 +305,12 @@
 
 	    (function () {
 	        $('#resend').hide();
+
 	    }());
 
 	    $('#resend').click(function(){
+	    	$('input[name=submit]').val("Envoyer");
+	    	$('input[name=reset]').val('Reset');
 	        $('#resend').fadeOut();
 	        $('#successMail').fadeOut()
 	        $('#contactForm').delay(500).fadeIn();
@@ -338,7 +341,6 @@
 	                $this.before( '<div class="alert alert-success" id="successMail">'+data.message+'</div>' );
 	                $this.find('input, textarea').val('');
 	                $('#contactForm').fadeOut();
-	                
 	                $('#resend').delay(500).fadeIn('slow');
 	            }
 	          },
