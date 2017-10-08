@@ -25,7 +25,7 @@
 					<div class="container">
 						<header class="major">
 							<h2>Espace X</h2>
-							<p>Liens utiles à la vie sur le platâl</p>
+							<p>Informations indispensables à la vie sur le platâl</p>
 							<a href="#" class="image no-background fit"><img src="images/pic07.jpg" alt="Image n°7" /></a>
 						</header>
 						<div class="row 150%">

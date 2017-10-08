@@ -78,10 +78,10 @@
 					<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
 					<div class="content">
 						<header>
-							<h2>En relation avec les entreprises</h2>
+							<h2>En relation avec les professionnels</h2>
 							<p>Établir un partenariat</p>
 						</header>
-						<p>Vous êtes une entreprises et vous souhaitez nouer un partenariat avec le Binet Réseau ?
+						<p>Vous êtes une entreprises ou une association et vous souhaitez nouer un partenariat avec le Binet Réseau ?
 						Contactez-nous !</p>
 						<ul class="actions">
 							<li><a href="entreprises.php" class="button">Espace Entreprises</a></li>
