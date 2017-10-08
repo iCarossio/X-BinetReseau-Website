@@ -32,7 +32,6 @@
 
 								<!-- Content -->
 									<section id="content">
-									<section id="content">
 										<a href="#" class="image no-background fit"><img src="images/pic07.jpg" alt="Image n°7" /></a>
 										<h2>Frankiz</h2>
 											<p>Pour se rendre sur Frankiz, c'est ici : <a href="https://www.frankiz.net" target="blank_">frankiz.net</a></p>
@@ -76,7 +75,7 @@
 										<hr />
 										<section>
 											<h2>Quelques statistiques</h2>
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+											<a href="#" class="image fit"><img src="images/pic09.jpg" alt="" /></a>
 
 											<div class="stats">
 												<div class="chart" data-percent="86">
