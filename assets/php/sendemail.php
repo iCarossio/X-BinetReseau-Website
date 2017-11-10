@@ -4,7 +4,7 @@
     header( 'Content-type: application/json' );
 
 
-    $to         = 'antoine.carossio@me.com';  // put your email here
+    $to         = 'br2015@eleves.polytechnique.fr';  // put your email here
 
     $email_template = 'mail.html';
 
