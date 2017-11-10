@@ -63,29 +63,25 @@
 
 										<br/>
 
-										<h2>Contact</h2>
-										    <ul>
-											    <li>pour ce qui concerne l'hébergement du site d'un binet, c'est : <a href="mailto:hebergement@eleves.polytechnique.fr" target="blank_">hebergement@eleves.polytechnique.fr</a> ;</li>
-											    <li>pour toute question concernant Frankiz, c'est : <a href="mailto:web@efrankiz.net">web@frankiz.net</a> ;</li>
-											    <li>pour contacter le bureau : <a href="mailto:bureau@eleves.polytechnique.fr">bureau@eleves.polytechnique.fr</a> ;</li>
-											    <li>enfin, pour écrire au BR tout entier :  <a href="mailto:br@eleves.polytechnique.fr">br@eleves.polytechnique.fr</a>.</li>
-										    </ul>
+										<h2>IRC</h2>
+											<p>Pour obtenir sur support en live, tu peux aussi nous trouver sur <a href="https://wikix.polytechnique.org/IRC" target="blank_">IRC</a> :</p>
+											<ul>
+												<li>serveur : <code>irc</code> ou <code>ircserver</code> :
+													<ul>
+													 	<li><code>irc.eleves.polytechnique.fr/ircserver.eleves.polytechnique.fr</code> sur le platâl;</li>
+													 	<li><code>irc.rezosup.org</code> à l'extérieur.</li>
+												 	</ul>
+												 </li>
+												<li>port 6667 : connexion non sécurisée</li>
+												<li>port 6767 : connexion SSL</li>
+												<li>channel : <code>#br-support</code></li>
+											</ul>
 
 										<br/>
 
-										<h2>IRC</h2>
-										    <p>Pour obtenir sur support en live, tu peux aussi nous trouver sur <a href="https://wikix.polytechnique.org/IRC" target="blank_">IRC</a> :</p>
-										    <ul>
-										        <li>serveur : <code>irc</code> ou <code>ircserver</code> :
-										        	<ul>
-											         	<li><code>irc.eleves.polytechnique.fr/ircserver.eleves.polytechnique.fr</code> sur le platâl;</li>
-											         	<li><code>irc.rezosup.org</code> à l'extérieur.</li>
-										         	</ul>
-										         </li>
-										        <li>port 6667 : connexion non sécurisée</li>
-										        <li>port 6767 : connexion SSL</li>
-										        <li>channel : <code>#br-support</code></li>
-										    </ul>
+										<h2>Contact</h2>
+											<p>Pour nous contacter, merci de passer par <a href="https://panix.binets.fr" alt="PaniX" target="_blank">Panix</a> ou l'IRC ci-dessus.</p>
+
 									</section>
 
 							</div>
@@ -101,17 +97,17 @@
 												<div class="chart" data-percent="86">
 													<!--<span class="percent"></span>-->
 													<span class="level">> 8000</span>
-											        <div class="chart-text">
-											          	<span>Inscrits sur Frankiz</span>
-											        </div>
+													<div class="chart-text">
+													  	<span>Inscrits sur Frankiz</span>
+													</div>
 												</div>
 												<br />
 												<div class="chart" data-percent="72">
 													<!--<span class="percent"></span>-->
 													<span class="level">> 150</span>
-											        <div class="chart-text">
-											          	<span>Sites hébergés sur Kevarzh</span>
-											        </div>
+													<div class="chart-text">
+													  	<span>Sites hébergés sur Kevarzh</span>
+													</div>
 												</div>
 											</div>
 										</section>
