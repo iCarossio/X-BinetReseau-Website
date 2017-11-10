@@ -33,6 +33,7 @@
 
 								<!-- Content -->
 									<section id="content">
+
 										<h2>Liens utiles</h2>
 										<div class="my_container">
 											<div class="my_element">
@@ -63,6 +64,11 @@
 
 										<br/>
 
+										<h2>Contact</h2>
+											<p>Pour nous contacter, merci de passer par <a href="https://panix.binets.fr" alt="PaniX" target="_blank">Panix</a> ou l'IRC ci-dessous.</p>
+
+										<br/>
+
 										<h2>IRC</h2>
 											<p>Pour obtenir sur support en live, tu peux aussi nous trouver sur <a href="https://wikix.polytechnique.org/IRC" target="blank_">IRC</a> :</p>
 											<ul>
@@ -76,11 +82,6 @@
 												<li>port 6767 : connexion SSL</li>
 												<li>channel : <code>#br-support</code></li>
 											</ul>
-
-										<br/>
-
-										<h2>Contact</h2>
-											<p>Pour nous contacter, merci de passer par <a href="https://panix.binets.fr" alt="PaniX" target="_blank">Panix</a> ou l'IRC ci-dessus.</p>
 
 									</section>
 
