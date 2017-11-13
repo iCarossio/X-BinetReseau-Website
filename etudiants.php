@@ -67,7 +67,7 @@
 												</a>
 											</div>
 											<div class="my_element">
-												<a href="https://titus.binets.fr" alt="PaniX" target="_blank">
+												<a href="https://titus.binets.fr" alt="Titus" target="_blank">
 													<span class="partners"><img src="images/internal/titus.png" alt="Titus"></span>
 													<h3>Titus</h3>
 												</a>
@@ -77,12 +77,12 @@
 										<br/>
 
 										<h2>Contact</h2>
-											<p>Pour nous contacter, merci de passer par <a href="https://panix.binets.fr" alt="PaniX" target="_blank">Panix</a> ou l'IRC ci-dessous.</p>
+											<p>Pour nous contacter, merci de passer par <a href="https://panix.binets.fr" alt="PaniX" target="_blank">PaniX</a> ou l'IRC ci-dessous.</p>
 
 										<br/>
 
 										<h2>IRC</h2>
-											<p>Pour obtenir sur support en live, tu peux aussi nous trouver sur <a href="https://wikix.polytechnique.org/IRC" target="blank_">IRC</a> :</p>
+											<p>Pour obtenir un support en live, tu peux aussi nous trouver sur <a href="https://wikix.polytechnique.org/IRC" target="blank_">IRC</a> :</p>
 											<ul>
 												<li>serveur : <code>irc</code> ou <code>ircserver</code> :
 													<ul>

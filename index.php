@@ -46,7 +46,7 @@
 									</header>
 								</div>
 								<div class="4u 12u$(medium)">
-									<p>Le Binet Réseau est l'association étudiante de l'École polytechnique qui regrouppe les passionnés d'informatique et de technologie.</p>
+									<p>Le Binet Réseau est l'association étudiante de l'École polytechnique qui regroupe les passionnés d'informatique et de technologie.</p>
 								</div>
 								<div class="4u$ 12u$(medium)">
 									<p>Nous sommes en charge du réseau internet sur le campus et nous développons des sites et services pour les étudiants.</p>
@@ -65,7 +65,7 @@
 							<h2>Au service des étudiants</h2>
 							<p>Liens et adresses utiles</p>
 						</header>
-						<p>Retrouvez-vous toutes les adresses indispensables à la vie sur le campus.</p>
+						<p>Retrouvez-vous toutes les sites utiles à la vie sur le campus.</p>
 						<ul class="actions">
 							<li><a href="etudiants.php" class="button">Espace Polytechniciens</a></li>
 						</ul>
