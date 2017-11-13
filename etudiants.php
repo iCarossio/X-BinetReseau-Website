@@ -37,28 +37,40 @@
 										<h2>Liens utiles</h2>
 										<div class="my_container">
 											<div class="my_element">
-												<span class="partners"><img src="images/internal/frankiz.png" alt="Frankiz"></span>
-												<h3><a href="https://www.frankiz.net" alt="IEEEFrance" target="_blank">Frankiz</a></h3>
+												<a href="https://www.frankiz.net" alt="IEEEFrance" target="_blank">
+													<span class="partners"><img src="images/internal/frankiz.png" alt="Frankiz"></span>
+													<h3>Frankiz</h3>
+												</a>
 											</div>
 											<div class="my_element">
-												<span class="partners"><img src="images/internal/wikibr.png" alt="WikiBR"></span>
-												<h3><a href="https://wikibr.binets.fr" alt="WikiBR" target="_blank">WikiBR</a></h3>
+												<a href="https://wikibr.binets.fr" alt="WikiBR" target="_blank">
+													<span class="partners"><img src="images/internal/wikibr.png" alt="WikiBR"></span>
+													<h3>WikiBR</h3>
+												</a>
 											</div>
 											<div class="my_element">
-												<span class="partners"><img src="images/internal/infobr.png" alt="InfoBR"></span>
-												<h3><a href="https://portail.polytechnique.edu/dsi/internet" alt="InfoBR" target="_blank">InfoBR</a></h3>
+												<a href="https://portail.polytechnique.edu/dsi/internet" alt="InfoBR" target="_blank">
+													<span class="partners"><img src="images/internal/infobr.png" alt="InfoBR"></span>
+													<h3>InfoBR</h3>
+												</a>
 											</div>
 											<div class="my_element">
-												<span class="partners"><img src="images/internal/gitlab.png" alt="GitLab"></span>
-												<h3><a href="https://gitlab.binets.fr" alt="GitLab" target="_blank">GitLab</a></h3>
+												<a href="https://gitlab.binets.fr" alt="GitLab" target="_blank">
+													<span class="partners"><img src="images/internal/gitlab.png" alt="GitLab"></span>
+													<h3>GitLab</h3>
+												</a>
 											</div>
 											<div class="my_element">
-												<span class="partners"><img src="images/internal/panix.png" alt="PaniX"></span>
-												<h3><a href="https://panix.binets.fr" alt="PaniX" target="_blank">PaniX</a></h3>
+												<a href="https://panix.binets.fr" alt="PaniX" target="_blank">
+													<span class="partners"><img src="images/internal/panix.png" alt="PaniX"></span>
+													<h3>PaniX</h3>
+												</a>
 											</div>
 											<div class="my_element">
-												<span class="partners"><img src="images/internal/titus.png" alt="Titus"></span>
-												<h3><a href="https://titus.binets.fr" alt="PaniX" target="_blank">Titus</a></h3>
+												<a href="https://titus.binets.fr" alt="PaniX" target="_blank">
+													<span class="partners"><img src="images/internal/titus.png" alt="Titus"></span>
+													<h3>Titus</h3>
+												</a>
 											</div>
 										</div>
 

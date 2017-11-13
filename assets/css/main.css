@@ -1,12 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 
-/*
-	Landed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -236,6 +230,10 @@
 		margin-left: 1%;
 		margin-right: 1%;
 		text-align: center;
+	}
+
+	.my_element a {
+		border-bottom-color: transparent !important;
 	}
 
 
@@ -1614,6 +1612,19 @@
 			border-bottom-color: transparent;
 		}
 
+	a h3 {
+		-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		color: #ffffff;
+		text-decoration: none;
+	}
+
+		a h3:hover {
+			color: #e44c65 !important;
+		}
+
 	strong, b {
 		color: #ffffff;
 		font-weight: 300;
@@ -2481,9 +2492,11 @@
 	.partners {
 		display: inline-block;
 		height: 100px;
+		border: none !important;
 	}
 
 	.partners img{
+		border: none !important;
 		vertical-align: center;
 		max-height: 80%;
 		max-width: 80%;
