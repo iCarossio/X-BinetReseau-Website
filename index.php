@@ -65,7 +65,7 @@
 							<h2>Au service des étudiants</h2>
 							<p>Liens et adresses utiles</p>
 						</header>
-						<p>Retrouvez-vous toutes les sites utiles à la vie sur le campus.</p>
+						<p>Retrouvez toutes les sites utiles à la vie sur le campus.</p>
 						<ul class="actions">
 							<li><a href="etudiants.php" class="button">Espace Polytechniciens</a></li>
 						</ul>
@@ -81,7 +81,7 @@
 							<h2>En relation avec les professionnels</h2>
 							<p>Établir un partenariat</p>
 						</header>
-						<p>Vous êtes une entreprises ou une association et vous souhaitez nouer un partenariat avec le Binet Réseau ?
+						<p>Vous représentez une entreprise ou une association et vous souhaitez nouer un partenariat avec le Binet Réseau ?
 						Contactez-nous !</p>
 						<ul class="actions">
 							<li><a href="entreprises.php" class="button">Espace Entreprises</a></li>
